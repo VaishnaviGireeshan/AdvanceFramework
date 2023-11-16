@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="12" failed="11" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-14T18:24:58 EST" name="Suite" finished-at="2023-11-14T18:27:42 EST" duration-ms="164430">
+    <groups>
+    </groups>
+    <test started-at="2023-11-14T18:24:58 EST" name="Test" finished-at="2023-11-14T18:27:42 EST" duration-ms="164430">
+      <class name="com.naveenAutomationPageTest.LoginPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:51 EST" name="loggerSetup" finished-at="2023-11-14T18:25:51 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:51 EST" name="launchBrowser" finished-at="2023-11-14T18:25:56 EST" duration-ms="4882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanLoginWithValidCredentials()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:56 EST" name="validateUserCanLoginWithValidCredentials" finished-at="2023-11-14T18:25:57 EST" duration-ms="873" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.LoginPageTest.validateUserCanLoginWithValidCredentials(LoginPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanLoginWithValidCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:57 EST" name="quitBrowser" finished-at="2023-11-14T18:25:57 EST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:57 EST" name="tearDown" finished-at="2023-11-14T18:25:57 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:25:57 EST" name="launchBrowser" finished-at="2023-11-14T18:26:03 EST" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanNotLoginWithInValidCredentials()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:03 EST" name="validateUserCanNotLoginWithInValidCredentials" finished-at="2023-11-14T18:26:04 EST" duration-ms="1090" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User is logedin expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User is logedin expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.naveenAutomationPageTest.LoginPageTest.validateUserCanNotLoginWithInValidCredentials(LoginPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:04 EST" name="quitBrowser" finished-at="2023-11-14T18:26:04 EST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:04 EST" name="tearDown" finished-at="2023-11-14T18:26:04 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:04 EST" name="launchBrowser" finished-at="2023-11-14T18:26:10 EST" duration-ms="6080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserIsAbleToNavigateToForgottenPasswordPage()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:10 EST" name="validateUserIsAbleToNavigateToForgottenPasswordPage" finished-at="2023-11-14T18:26:11 EST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsAbleToNavigateToForgottenPasswordPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:11 EST" name="quitBrowser" finished-at="2023-11-14T18:26:11 EST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.LoginPageTest@539d019]" started-at="2023-11-14T18:26:11 EST" name="tearDown" finished-at="2023-11-14T18:26:11 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.LoginPageTest -->
+      <class name="com.naveenAutomationPageTest.LogoutPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.LogoutPageTest@39a2bb97]" started-at="2023-11-14T18:26:11 EST" name="loggerSetup" finished-at="2023-11-14T18:26:11 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.LogoutPageTest@39a2bb97]" started-at="2023-11-14T18:26:11 EST" name="launchBrowser" finished-at="2023-11-14T18:26:15 EST" duration-ms="4124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanLogoutsafely()[pri:0, instance:com.naveenAutomationPageTest.LogoutPageTest@39a2bb97]" started-at="2023-11-14T18:26:15 EST" name="validateUserCanLogoutsafely" finished-at="2023-11-14T18:26:16 EST" duration-ms="891" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.LogoutPageTest.validateUserCanLogoutsafely(LogoutPageTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanLogoutsafely -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.LogoutPageTest@39a2bb97]" started-at="2023-11-14T18:26:16 EST" name="tearDown" finished-at="2023-11-14T18:26:16 EST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.LogoutPageTest -->
+      <class name="com.naveenAutomationPageTest.ViewProductReturnsPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.ViewProductReturnsPageTest@3ad2e17]" started-at="2023-11-14T18:26:16 EST" name="loggerSetup" finished-at="2023-11-14T18:26:16 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.ViewProductReturnsPageTest@3ad2e17]" started-at="2023-11-14T18:26:16 EST" name="launchBrowser" finished-at="2023-11-14T18:26:22 EST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserIsInViewProductReturnsPage()[pri:0, instance:com.naveenAutomationPageTest.ViewProductReturnsPageTest@3ad2e17]" started-at="2023-11-14T18:26:22 EST" name="validateUserIsInViewProductReturnsPage" finished-at="2023-11-14T18:26:23 EST" duration-ms="930" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.ViewProductReturnsPageTest.validateUserIsInViewProductReturnsPage(ViewProductReturnsPageTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsInViewProductReturnsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.ViewProductReturnsPageTest@3ad2e17]" started-at="2023-11-14T18:26:23 EST" name="tearDown" finished-at="2023-11-14T18:26:23 EST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.ViewProductReturnsPageTest -->
+      <class name="com.naveenAutomationPageTest.AddressBookEntriesPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:18 EST" name="loggerSetup" finished-at="2023-11-14T18:25:18 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:18 EST" name="launchBrowser" finished-at="2023-11-14T18:25:22 EST" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanDeleteAddress()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:22 EST" name="validateUserCanDeleteAddress" finished-at="2023-11-14T18:25:23 EST" duration-ms="1013" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.AddressBookEntriesPageTest.validateUserCanDeleteAddress(AddressBookEntriesPageTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanDeleteAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:23 EST" name="tearDown" finished-at="2023-11-14T18:25:24 EST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:24 EST" name="launchBrowser" finished-at="2023-11-14T18:25:28 EST" duration-ms="4147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanNavigateToAddressBook()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:28 EST" name="validateUserCanNavigateToAddressBook" finished-at="2023-11-14T18:25:29 EST" duration-ms="1176" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.AddressBookEntriesPageTest.validateUserCanNavigateToAddressBook(AddressBookEntriesPageTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNavigateToAddressBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.AddressBookEntriesPageTest@7749bf93]" started-at="2023-11-14T18:25:29 EST" name="tearDown" finished-at="2023-11-14T18:25:29 EST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.AddressBookEntriesPageTest -->
+      <class name="com.naveenAutomationPageTest.AccountPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:24:58 EST" name="loggerSetup" finished-at="2023-11-14T18:24:58 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:24:58 EST" name="launchBrowser" finished-at="2023-11-14T18:25:05 EST" duration-ms="6740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanChangePassword()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:05 EST" name="validateUserCanChangePassword" finished-at="2023-11-14T18:25:06 EST" duration-ms="1034" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.AccountPageTest.validateUserCanChangePassword(AccountPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanChangePassword -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:06 EST" name="quitBrowser" finished-at="2023-11-14T18:25:06 EST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:06 EST" name="tearDown" finished-at="2023-11-14T18:25:06 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:06 EST" name="launchBrowser" finished-at="2023-11-14T18:25:11 EST" duration-ms="4818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanEditPersonalInfo()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:11 EST" name="validateUserCanEditPersonalInfo" finished-at="2023-11-14T18:25:12 EST" duration-ms="1035" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.AccountPageTest.validateUserCanEditPersonalInfo(AccountPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanEditPersonalInfo -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:12 EST" name="quitBrowser" finished-at="2023-11-14T18:25:13 EST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:13 EST" name="tearDown" finished-at="2023-11-14T18:25:13 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:13 EST" name="launchBrowser" finished-at="2023-11-14T18:25:17 EST" duration-ms="4291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserCanUpdateNewsLetterSubscription()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:17 EST" name="validateUserCanUpdateNewsLetterSubscription" finished-at="2023-11-14T18:25:18 EST" duration-ms="867" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class com.naveenautomation.pages.LoginPage cannot be cast to class com.naveenautomation.pages.AccountPage (com.naveenautomation.pages.LoginPage and com.naveenautomation.pages.AccountPage are in unnamed module of loader 'app')
+at com.naveenAutomationPageTest.AccountPageTest.validateUserCanUpdateNewsLetterSubscription(AccountPageTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanUpdateNewsLetterSubscription -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:18 EST" name="quitBrowser" finished-at="2023-11-14T18:25:18 EST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.AccountPageTest@49ff7d8c]" started-at="2023-11-14T18:25:18 EST" name="tearDown" finished-at="2023-11-14T18:25:18 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.AccountPageTest -->
+      <class name="com.naveenAutomationPageTest.RegisterAccountPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:23 EST" name="loggerSetup" finished-at="2023-11-14T18:26:23 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:23 EST" name="launch" finished-at="2023-11-14T18:26:27 EST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotEnterInvalidFirstName()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:27 EST" name="validateUserCanNotEnterInvalidFirstName" finished-at="2023-11-14T18:26:30 EST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotEnterInvalidFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:30 EST" name="tearDown" finished-at="2023-11-14T18:26:30 EST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:30 EST" name="launch" finished-at="2023-11-14T18:26:37 EST" duration-ms="6789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotEnterInvalidLastName()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:37 EST" name="validateUserCanNotEnterInvalidLastName" finished-at="2023-11-14T18:26:40 EST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotEnterInvalidLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:40 EST" name="tearDown" finished-at="2023-11-14T18:26:40 EST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:40 EST" name="launch" finished-at="2023-11-14T18:26:44 EST" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotEnterInvalidTelephone()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:44 EST" name="validateUserCanNotEnterInvalidTelephone" finished-at="2023-11-14T18:26:47 EST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotEnterInvalidTelephone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:47 EST" name="tearDown" finished-at="2023-11-14T18:26:47 EST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:47 EST" name="launch" finished-at="2023-11-14T18:26:52 EST" duration-ms="4936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotSkipConfirmPassword()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:52 EST" name="validateUserCanNotSkipConfirmPassword" finished-at="2023-11-14T18:26:54 EST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotSkipConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:54 EST" name="tearDown" finished-at="2023-11-14T18:26:54 EST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:54 EST" name="launch" finished-at="2023-11-14T18:26:59 EST" duration-ms="4309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotSkipEmail()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:26:59 EST" name="validateUserCanNotSkipEmail" finished-at="2023-11-14T18:27:01 EST" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotSkipEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:01 EST" name="tearDown" finished-at="2023-11-14T18:27:02 EST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:02 EST" name="launch" finished-at="2023-11-14T18:27:06 EST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotSkipFirstName()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:06 EST" name="validateUserCanNotSkipFirstName" finished-at="2023-11-14T18:27:08 EST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotSkipFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:08 EST" name="tearDown" finished-at="2023-11-14T18:27:08 EST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:08 EST" name="launch" finished-at="2023-11-14T18:27:12 EST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotSkipLastName()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:12 EST" name="validateUserCanNotSkipLastName" finished-at="2023-11-14T18:27:14 EST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotSkipLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:14 EST" name="tearDown" finished-at="2023-11-14T18:27:15 EST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:15 EST" name="launch" finished-at="2023-11-14T18:27:19 EST" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotSkipPassword()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:19 EST" name="validateUserCanNotSkipPassword" finished-at="2023-11-14T18:27:21 EST" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotSkipPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:21 EST" name="tearDown" finished-at="2023-11-14T18:27:21 EST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:21 EST" name="launch" finished-at="2023-11-14T18:27:26 EST" duration-ms="4861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCheckEDPrivacyPolicyCheckBox()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:26 EST" name="validateUserCheckEDPrivacyPolicyCheckBox" finished-at="2023-11-14T18:27:28 EST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCheckEDPrivacyPolicyCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:28 EST" name="tearDown" finished-at="2023-11-14T18:27:29 EST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:29 EST" name="launch" finished-at="2023-11-14T18:27:34 EST" duration-ms="5047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserIsAbleToRegisterWithValidInfo()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:34 EST" name="validateUserIsAbleToRegisterWithValidInfo" finished-at="2023-11-14T18:27:36 EST" duration-ms="2249" status="FAIL">
+          <exception class="java.lang.Error">
+            <full-stacktrace>
+              <![CDATA[java.lang.Error
+at com.naveenautomation.pages.RegistrationSuccessPage.isLoaded(RegistrationSuccessPage.java:31)
+at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:25)
+at com.naveenautomation.pages.Page.<init>(Page.java:11)
+at com.naveenautomation.pages.RegistrationSuccessPage.<init>(RegistrationSuccessPage.java:12)
+at com.naveenautomation.pages.RegisterAccountPage.clickSubmitBtn(RegisterAccountPage.java:67)
+at com.naveenAutomationPageTest.RegisterAccountPageTest.validateUserIsAbleToRegisterWithValidInfo(RegisterAccountPageTest.java:200)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsAbleToRegisterWithValidInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:36 EST" name="tearDown" finished-at="2023-11-14T18:27:36 EST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:36 EST" name="launch" finished-at="2023-11-14T18:27:41 EST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserNavigatedToRegisterAccount()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:41 EST" name="validateUserNavigatedToRegisterAccount" finished-at="2023-11-14T18:27:42 EST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNavigatedToRegisterAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.RegisterAccountPageTest@8c3619e]" started-at="2023-11-14T18:27:42 EST" name="tearDown" finished-at="2023-11-14T18:27:42 EST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.RegisterAccountPageTest -->
+      <class name="com.naveenAutomationPageTest.ForgottenPasswordPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:29 EST" name="loggerSetup" finished-at="2023-11-14T18:25:29 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:29 EST" name="launchBrowser" finished-at="2023-11-14T18:25:33 EST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserWillGetConfirmationLinkUsingValidEmail()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:33 EST" name="validateUserWillGetConfirmationLinkUsingValidEmail" finished-at="2023-11-14T18:25:45 EST" duration-ms="11360" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: div.alert-success (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.alert-success (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.naveenautomation.proxydriver.ProxyDriver.waitForElementToBeVisible(ProxyDriver.java:169)
+at com.naveenautomation.proxydriver.ProxyDriver.getText(ProxyDriver.java:210)
+at com.naveenautomation.pages.ForgottenPasswordPage.getForgottenPasswordPageSuccessMessage(ForgottenPasswordPage.java:44)
+at com.naveenAutomationPageTest.ForgottenPasswordPageTest.validateUserWillGetConfirmationLinkUsingValidEmail(ForgottenPasswordPageTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.alert-success"}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAISH', ip: '10.0.0.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Vishnu\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 66eb9054b712141c6a0f03a33e20ba09
+*** Element info: {Using=css selector, value=div.alert-success}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.naveenautomation.proxydriver.ProxyDriver.findElement(ProxyDriver.java:60)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWillGetConfirmationLinkUsingValidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:45 EST" name="tearDown" finished-at="2023-11-14T18:25:45 EST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:45 EST" name="launchBrowser" finished-at="2023-11-14T18:25:49 EST" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUserWillNotGetConfirmationLinkUsingInvalidEmail()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:49 EST" name="validateUserWillNotGetConfirmationLinkUsingInvalidEmail" finished-at="2023-11-14T18:25:51 EST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserWillNotGetConfirmationLinkUsingInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationPageTest.ForgottenPasswordPageTest@13330ac6]" started-at="2023-11-14T18:25:51 EST" name="tearDown" finished-at="2023-11-14T18:25:51 EST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationPageTest.ForgottenPasswordPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
