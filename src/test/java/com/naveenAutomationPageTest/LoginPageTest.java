@@ -29,7 +29,7 @@ public class LoginPageTest extends TestBase {
 
 	public void validateUserCanLoginWithValidCredentials() {
 		// Perform the login action
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 
 		// Verify that the user is logged in successfully
 		Assert.assertEquals(accountPage.getMyAccouuntText(), "My Account", "User is not logedin");
@@ -37,7 +37,7 @@ public class LoginPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanNotLoginWithInValidCredentials() {
-		loginPage = (LoginPage) loginPage.submitLogin("TonyStark@gmail.com", "Dany123@");
+		loginPage = (LoginPage) loginPage.submitLogin("SamStark@gmail.com", "Dany123@");
 
 		// Verify that the user can not login
 		Assert.assertEquals(loginPage.getAlertText(), "Warning: No match for E-Mail Address and/or Password.",

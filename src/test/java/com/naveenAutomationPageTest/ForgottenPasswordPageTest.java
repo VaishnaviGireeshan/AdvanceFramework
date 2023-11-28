@@ -28,7 +28,7 @@ public class ForgottenPasswordPageTest extends TestBase {
 		// Verify if the page banner text matches
 		Assert.assertEquals(forgottenPasswordPage.getForgottenPasswordPageBannerText(), "Forgot Your Password?",
 				"Forgotten Password PageBanner text doesn't match!!!");
-		forgottenPasswordPage.enterEmail("TonyStark@gmail.com");
+		forgottenPasswordPage.enterEmail("SamStark@gmail.com");
 
 		forgottenPasswordPage.clickContinueBtn();
 
@@ -41,7 +41,7 @@ public class ForgottenPasswordPageTest extends TestBase {
 
 	@Test
 	public void validateUserWillNotGetConfirmationLinkUsingInvalidEmail() {
-		// Click on the "Forgotten Password" link on the login page
+		// Click on the "Forgotten Password" link on the login pagef
 		forgottenPasswordPage = loginPage.clickForgottenPasswordPageLink();
 
 		// Verify if the page banner text matches
@@ -49,7 +49,7 @@ public class ForgottenPasswordPageTest extends TestBase {
 				"Forgotten Password PageBanner text doesn't match!!!");
 
 		// Verify if the page banner text matches "Forgot Your Password?"
-		forgottenPasswordPage.enterEmail("Tonyds@gmail.com");
+		forgottenPasswordPage.enterEmail("Samds@gmail.com");
 
 		forgottenPasswordPage.clickContinueBtn();
 

@@ -28,7 +28,7 @@ public class LogoutPageTest extends TestBase {
 	@Test
 	public void validateUserCanLogoutsafely() {
 		// login using valid credentials
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 		// Perform the logout action
 		logoutPage = (LogoutPage) new SideNavigationBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.LOGOUT);

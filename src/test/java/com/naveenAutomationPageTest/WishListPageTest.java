@@ -26,7 +26,7 @@ public class WishListPageTest extends TestBase {
 
 	@Test
 	public void validateUserIsInWishListPage() {
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 		wishListPage =(WishListPage) new SideNavigationBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.WISH_LIST);
 		

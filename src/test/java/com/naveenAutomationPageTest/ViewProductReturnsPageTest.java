@@ -25,7 +25,7 @@ public class ViewProductReturnsPageTest extends TestBase {
 
 	@Test
 	public void validateUserIsInViewProductReturnsPage() {
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 		viewProductReturnsPage =(ReturnsPage) new SideNavigationBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.RETURNS);
 		Assert.assertEquals(viewProductReturnsPage.getViewProductReturnsPageText(), "Product Returns",

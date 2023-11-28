@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.naveenAutomationPageTest.RegisterAccountPageTest">
+        <methods>
+          <include name="validateUserIsAbleToRegisterWithValidInfo"/>
+          <include name="launch"/>
+          <include name="loggerSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.naveenAutomationPageTest.RegisterAccountPageTest -->
+      <class name="com.naveenAutomationPageTest.AddressBookEntriesPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="tearDown"/>
+          <include name="validateUserCanDeleteAddress"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.naveenAutomationPageTest.AddressBookEntriesPageTest -->
+      <class name="com.naveenAutomationPageTest.LoginPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="launchBrowser"/>
+          <include name="validateUserIsAbleToNavigateToForgottenPasswordPage"/>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenAutomationPageTest.LoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

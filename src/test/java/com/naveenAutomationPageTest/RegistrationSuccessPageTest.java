@@ -25,20 +25,5 @@ public class RegistrationSuccessPageTest  extends TestBase {
 
 	}
 
-//	@Test
-//
-//	public void validateUserNavigatedToRegisterAccount() {
-//		registerAccountPage = (RegisterAccountPage) new SideNavigationBar(wd, false)
-//				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.REGISTER);
-//		registerAccountPage.enterFirstName("Johny");
-//		registerAccountPage.enterLastName("Doe");
-//		registerAccountPage.enterEmail("john.doey@example.com");
-//		registerAccountPage.enterTelephone("1234567890");
-//		registerAccountPage.enterPassword("john.doe");
-//		registerAccountPage.enterConfirmPassword("john.doe");
-//		registerAccountPage.checkPrivacyPolicyCheckBox();
-//		registrationSuccessPage = registerAccountPage.clickSubmitBtn();
-//		Assert.assertEquals(registerAccountPage.getRegisterAccountText(), "Register Account",
-//				"User is not navigated to Register Account Page");
-//	}
+
 }

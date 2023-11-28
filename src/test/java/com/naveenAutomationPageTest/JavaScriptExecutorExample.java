@@ -41,8 +41,8 @@ public class JavaScriptExecutorExample {
 
 	@Test
 	public void clickUsingJavaScriptExecutor() {
-		jse.executeScript("arguments[0].value='TonyStark@gmail.com';", wd.findElement(By.id("input-email")));
-		jse.executeScript("arguments[0].value='Tony12345';", wd.findElement(By.id("input-password")));
+		jse.executeScript("arguments[0].value='SamStark@gmail.com';", wd.findElement(By.id("input-email")));
+		jse.executeScript("arguments[0].value='Sam12345';", wd.findElement(By.id("input-password")));
 		jse.executeScript("arguments[0].click();", wd.findElement(By.cssSelector("input[type='submit']")));
 	}
 

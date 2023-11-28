@@ -27,7 +27,7 @@ public class AddressBookEntriesPageTest extends TestBase {
 
 	public void validateUserCanNavigateToAddressBook() {
 
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 		addressBookEntriesPage = (AddressBookPage) new SideNavigationBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.ADDRESS_BOOK);
 		Assert.assertEquals(addressBookEntriesPage.getaddressBookEntriesPageText(), "Address Book Entries",
@@ -42,7 +42,7 @@ public class AddressBookEntriesPageTest extends TestBase {
 
 		// Log in and navigate to the Product Returns page
 
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 
 		addressBookEntriesPage = (AddressBookPage) new SideNavigationBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.ADDRESS_BOOK);

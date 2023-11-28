@@ -30,7 +30,7 @@ public class AccountPageTest extends TestBase {
 	@Test
 	public void validateUserCanEditPersonalInfo() {
 		// Login to the account
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 
 		// Click on the "Edit your account information" link
 		editAccountPage = (EditAccountPage) new SideNavigationBar(wd, false)
@@ -47,7 +47,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanChangePassword() {
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 
 		// Click on the "Change Password" link
 
@@ -55,8 +55,8 @@ public class AccountPageTest extends TestBase {
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.PASSWORD);
 
 		// Enter a new password and confirm it
-		changePasswordPage.enterPassword("Tony12345");
-		changePasswordPage.enterConfirmPassword("Tony12345");
+		changePasswordPage.enterPassword("Sam12345");
+		changePasswordPage.enterConfirmPassword("Sam12345");
 
 		// Click the "Continue" button
 		accountPage = changePasswordPage.clickPwContinueBtn();
@@ -69,7 +69,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanUpdateNewsLetterSubscription() {
-		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		accountPage = (AccountPage) loginPage.submitLogin("SamStark@gmail.com", "Sam12345");
 
 		// Click on the "Subscribe to newsletter" link
 		newLetterSubscriptionPage = (NewsLetterSubscriptionPage) new SideNavigationBar(wd, false)
